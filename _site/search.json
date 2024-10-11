@@ -1,0 +1,224 @@
+[
+  {
+    "objectID": "odbc.html",
+    "href": "odbc.html",
+    "title": "odbc",
+    "section": "",
+    "text": "The odbc package provides a DBI-compliant interface to Open Database Connectivity (ODBC) drivers. It allows for an efficient, easy way to setup connection to any database using an ODBC driver, including Databricks.",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "odbc"
+    ]
+  },
+  {
+    "objectID": "odbc.html#whats-new",
+    "href": "odbc.html#whats-new",
+    "title": "odbc",
+    "section": "What’s new?",
+    "text": "What’s new?\nThe new odbc::databricks() function has built-in ways to determine and set most of the connection settings.\n\n\nBefore: \n\nAfter:",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "odbc"
+    ]
+  },
+  {
+    "objectID": "odbc.html#how-to",
+    "href": "odbc.html#how-to",
+    "title": "odbc",
+    "section": "How-to",
+    "text": "How-to\n\n\n\n\n\n\nNote\n\n\n\nThe Databricks Driver Options on the Posit Solutions page steps through connecting to Databricks with odbc. This page links to the relevant sections.\n\n\nWatch a walkthrough of the steps here:\n\n\n\n\n\n\n\n\n\n\nInstall the driver »\nDownload the ODBC driver directly from the provider’s site: Databricks ODBC Driver.\n\n\n\n\n\n\nNote\n\n\n\nPosit Workbench, RStudio Desktop Pro, Connect, or Shiny Server Pro users can download and use Posit Professional Drivers at no additional charge. These drivers include an ODBC connector for Databricks.\nLearn more »\n\n\n\n\nGet started »\nWe recommend using the new odbc::databricks() function to connect to Databricks.\n\n\nInteract with the cluster »\nYou can explore and access data from your Databricks cluster directly in RStudio through the Connections Pane.\n\n\nAnalyzing your data »\nYou can use your familiar dplyr commands to prepare your data.\nCheck out the Best Practices page to learn about creating enterprise-ready dashboards, securing deployed content, and more.\n\n\nDeploying content to Posit Connect\nOnce you have created your content, deploy it to Posit Connect.",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "odbc"
+    ]
+  },
+  {
+    "objectID": "odbc.html#reference",
+    "href": "odbc.html#reference",
+    "title": "odbc",
+    "section": "Reference",
+    "text": "Reference\n\nodbc package site",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "odbc"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About the Partnership",
+    "section": "",
+    "text": "The Databrick Lakehouse Platform provides a comprehensive architecture that seamlessly integrates, stores, processes, and manages data at scale. Posit specializes in building user-friendly, code-first environments and tools for R and Python users, empowering them to write code, manage packages, and deploy data products with ease. Users from both sides can already harness the benefits of existing integrations, combining the strengths of Databricks’ architecture with Posit’s robust tools.\nWe’re strengthening our partnership to augment and improve our integrations, ensuring we deliver even better outcomes for our customers. We aim to deliver an exceptional development and publishing experience by combining popular tools for coding and deployment with robust scaling, distributed computing, and ML capabilities."
+  },
+  {
+    "objectID": "about.html#read-the-announcement",
+    "href": "about.html#read-the-announcement",
+    "title": "About the Partnership",
+    "section": "Read the announcement »",
+    "text": "Read the announcement »\nShanku Niyogi and Eric Pité are pleased to inform you about the collaborative efforts and integrations between the teams at Databricks and Posit."
+  },
+  {
+    "objectID": "about.html#whats-next",
+    "href": "about.html#whats-next",
+    "title": "About the Partnership",
+    "section": "What’s next",
+    "text": "What’s next\n\nSupport for Databricks authentication in Posit Connect\nContinued improvements and expansion to existing Posit Workbench capabilities with Databricks\nGrowing support for additional Spark functions and features in sparklyr\nEventual inclusion of Posit products in Databricks Lakehouse Applications"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Databricks x Posit",
+    "section": "",
+    "text": "Databricks and Posit are thrilled to announce a strategic partnership to provide R and Python developers with an unmatched experience when working with Databricks.\nSee our latest webinar:"
+  },
+  {
+    "objectID": "posit-workbench.html",
+    "href": "posit-workbench.html",
+    "title": "Posit Workbench and RStudio Pro",
+    "section": "",
+    "text": "Posit Workbench is the place for teams to collaboratively build open source data science projects at scale. It supports both R and Python, giving data scientists access to all the development environments they love, including RStudio, Jupyter, and VS Code.\nIf you are working on RStudio Pro in Posit Workbench, you have more seamless options for connecting to Databricks.",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "Posit Workbench and RStudio Pro"
+    ]
+  },
+  {
+    "objectID": "posit-workbench.html#whats-new",
+    "href": "posit-workbench.html#whats-new",
+    "title": "Posit Workbench and RStudio Pro",
+    "section": "What’s new?",
+    "text": "What’s new?\nWatch James Blair’s posit::conf(2023) talk, Matching Tools to Titans: Tailoring Posit Workbench for Every Cloud, to learn what’s new with Posit Workbench and Databricks:\n\n\n\n\nSee the resources on GitHub »\n\nManaged Databricks credentials »\nThe 2023.12.0 version of Posit Workbench offers managed Databricks credentials - no need to supply Personal Access Tokens (PATs).\nThese Workbench-managed credentials eliminate the need for end users to manage complex authentication workflows or manual refresh when accessing specific Cloud services from within Workbench.\n\n\nSee more benefits\n\n\nUsers arrive in a session to find that tools like the CLI and most official SDKs and drivers “magically” work without needing a separate step to set up credentials.\nAdministrators no longer need to accept blanket access to an overloaded instance profile (or an equivalent) by all Workbench users so that they can access Cloud-based resources.\nUsers do not need to manage sensitive, long-lived credentials/PATs themselves to have individually scoped permissions.\nAdministrators can grant or revoke granular access for individuals at the Identity Access or Single Sign-On provider level.\n\n\nSee how easy it is to authenticate your Databricks account in Posit Workbench:",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "Posit Workbench and RStudio Pro"
+    ]
+  },
+  {
+    "objectID": "posit-workbench.html#databricks-pane",
+    "href": "posit-workbench.html#databricks-pane",
+    "title": "Posit Workbench and RStudio Pro",
+    "section": "Databricks Pane »",
+    "text": "Databricks Pane »\nWe have introduced a Databricks Pane in RStudio Pro, which allows for users to manage and connect to Databricks clusters directly from the IDE. This allows R users to stay in RStudio Pro without having to navigate back and forth to the Databricks web interface.\nWatch a demonstration of the Databricks Pane here:",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "Posit Workbench and RStudio Pro"
+    ]
+  },
+  {
+    "objectID": "posit-workbench.html#databricks-pro-driver",
+    "href": "posit-workbench.html#databricks-pro-driver",
+    "title": "Posit Workbench and RStudio Pro",
+    "section": "Databricks Pro Driver »",
+    "text": "Databricks Pro Driver »\nPosit Workbench includes access to our Pro Drivers for the most popular databases. As of the 2023.12 release, we now also include a Databricks driver.\nSee how to connect with the Databricks Pro Driver:",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "Posit Workbench and RStudio Pro"
+    ]
+  },
+  {
+    "objectID": "posit-workbench.html#references",
+    "href": "posit-workbench.html#references",
+    "title": "Posit Workbench and RStudio Pro",
+    "section": "References",
+    "text": "References\n\nRStudio IDE and Posit Workbench 2023.12.0: What’s New",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "Posit Workbench and RStudio Pro"
+    ]
+  },
+  {
+    "objectID": "connect-to-db.html",
+    "href": "connect-to-db.html",
+    "title": "Connect to Databricks",
+    "section": "",
+    "text": "Choose your own adventure for connecting to Databricks:\n\n\n\nsparklyr\nFor handling large datasets that benefit from distributed computing and/or ML operations, we suggest sparklyr, which uses Apache Spark, designed for big data processing and extensive analytics tasks.\n\nSee how to use sparklyr »\n\n\n\n\n\n\nodbc\nFor basic querying tasks without requiring Spark’s advanced capabilities, ODBC offers a simpler and lighter option, especially if you don’t have Unity Catalog. In such cases, we recommend using the ODBC drivers and the new odbc::databricks() function. Additionally, for interactive applications like Shiny, using ODBC streamlines connection requirements and dependencies.\n\nSee how to use odbc »\n\n\n\n\n\n\n\nPosit Workbench and RStudio Pro\nFor customers with Posit Workbench and RStudio Pro, there are seamless options for connecting to Databricks.\n\nLearn more about our pro products »",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks"
+    ]
+  },
+  {
+    "objectID": "sparklyr.html",
+    "href": "sparklyr.html",
+    "title": "sparklyr",
+    "section": "",
+    "text": "sparklyr serves as the R interface to Apache Spark, enabling seamless connections to Databricks through Databricks Connect.",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "sparklyr"
+    ]
+  },
+  {
+    "objectID": "sparklyr.html#whats-new",
+    "href": "sparklyr.html#whats-new",
+    "title": "sparklyr",
+    "section": "What’s new?",
+    "text": "What’s new?\nWatch Edgar Ruiz’s posit::conf(2023) talk, Using R with Databricks Connect, to learn what’s new with sparklyr and Databricks:\n\n\n\n\nSee the slides on Posit Connect »",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "sparklyr"
+    ]
+  },
+  {
+    "objectID": "sparklyr.html#how-to",
+    "href": "sparklyr.html#how-to",
+    "title": "sparklyr",
+    "section": "How-to",
+    "text": "How-to\n\n\n\n\n\n\nNote\n\n\n\nThe Databricks Connect v2 page in the sparklyr documentation has updated, thorough steps on using sparklyr for Databricks. This page links to the relevant sections.\n\n\nWatch a walkthrough of the steps here:\n\n\n\n\n\n\n\n\n\n\n\nInstall the required packages »\nInstall the required packages to get started.\ninstall.packages(\"sparklyr\")\ninstall.packages(\"pysparklyr\")\n\n\nGet started »\nConfigure your workspace to use Databricks Connect and access Unity Catalog data via the RStudio Connections Pane.\n\n\n\n\n\n\nNote\n\n\n\nIf you’re using RStudio on Posit Workbench, there’s a new Databricks pane that helps you manage your Databricks Spark clusters, as well as connections to clusters via Sparklyr. Click on the Databricks pane, and you’ll see a list of your compute clusters, their status, and more details. Learn more.\n\n\n\n\nInteract with the cluster »\nThe new integration with sparklyr allows you to explore and access data from your Databricks cluster directly in RStudio through the Connections Pane.\n\n\nAnalyzing your data\n\nPrepare data »\nYou can use your familiar dplyr commands to prepare your data. The sparklyr cheat sheet provides easy reference to the functions available with sparklyr.\n\n\n\n\n\nSee the cheatsheet »\n\n\nMachine learning »\nSparklyr supports Logistic Regression and two scaler transformers, Standard Scaler and Max Abs Scaler.\n\n\n\nDeploying Databricks-backed content to Posit Connect »\nOnce you have created your content, deploy it to Posit Connect using pysparklyr::deploy_databricks(). Posit Connect allows you to edit sharing permissions, edit vanity URLs, and more.",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "sparklyr"
+    ]
+  },
+  {
+    "objectID": "sparklyr.html#tutorial",
+    "href": "sparklyr.html#tutorial",
+    "title": "sparklyr",
+    "section": "Tutorial",
+    "text": "Tutorial\nIn our blog post, Crossing Bridges: Reporting on NYC taxi data with RStudio and Databricks, we walk through connecting to Databricks in RStudio, accessing cluster data, and creating a Quarto report using the data that is deployed to Posit Connect.\n\n\n\n\n\nRead the tutorial »\nWatch a 1-minute walk through »",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "sparklyr"
+    ]
+  },
+  {
+    "objectID": "sparklyr.html#references",
+    "href": "sparklyr.html#references",
+    "title": "sparklyr",
+    "section": "References",
+    "text": "References\n\nsparklyr site\n\nsparklyr GitHub repo\nsparklyr update blog post\n\npysparklyr GitHub repo\n\npysparklyr update blog post",
+    "crumbs": [
+      "Home",
+      "For developers",
+      "Connect to Databricks",
+      "sparklyr"
+    ]
+  }
+]

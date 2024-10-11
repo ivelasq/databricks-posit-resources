@@ -1,0 +1,64 @@
+---
+title: "odbc"
+---
+
+The odbc package provides a DBI-compliant interface to Open Database Connectivity (ODBC) drivers. It allows for an efficient, easy way to setup connection to any database using an ODBC driver, including Databricks.
+
+## What's new?
+
+The new `odbc::databricks()` function has built-in ways to determine and set most of the connection settings. 
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Before:
+![](images/odbc-before.png)
+:::
+
+::: {.column width="50%"}
+After:
+![](images/odbc-after.png)
+:::
+::::
+
+## How-to
+
+::: {.callout-note}
+The [Databricks Driver Options](https://solutions.posit.co/connections/db/databases/databricks/index.html) on the Posit Solutions page steps through connecting to Databricks with odbc. This page links to the relevant sections.
+:::
+
+Watch a walkthrough of the steps here:
+
+<center><script src="https://fast.wistia.com/embed/medias/8spdqe5405.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_8spdqe5405 seo=true videoFoam=false" style="height:281px;position:relative;width:500px"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/8spdqe5405/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></center>
+
+### [Install the driver »](https://solutions.posit.co/connections/db/databases/databricks/index.html#package-options)
+
+Download the ODBC driver directly from the provider’s site: [Databricks ODBC Driver](https://www.databricks.com/spark/odbc-drivers-download).
+
+::: {.callout-note}
+Posit Workbench, RStudio Desktop Pro, Connect, or Shiny Server Pro users can download and use [Posit Professional Drivers](https://docs.posit.co/pro-drivers/) at no additional charge. These drivers include an ODBC connector for Databricks.
+
+[Learn more »](posit-workbench.html#databricks-pro-driver)
+:::
+
+### [Get started »](https://solutions.posit.co/connections/db/databases/databricks/#package-options)
+
+We recommend using the new `odbc::databricks()` function to connect to Databricks.
+
+### [Interact with the cluster »](https://solutions.posit.co/connections/db/tooling/connections/)
+
+You can explore and access data from your Databricks cluster directly in RStudio through the [Connections Pane](https://solutions.posit.co/connections/db/tooling/connections/).
+
+### [Analyzing your data »]((https://solutions.posit.co/connections/db/r-packages/dplyr/))
+
+You can use your familiar dplyr commands to prepare your data.
+
+Check out the [Best Practices](https://solutions.posit.co/connections/db/best-practices/) page to learn about creating enterprise-ready dashboards, securing deployed content, and more.
+
+### Deploying content to Posit Connect
+
+Once you have created your content, deploy it to [Posit Connect](https://posit.co/products/enterprise/connect/).
+
+## Reference
+
+* [odbc package site](https://odbc.r-dbi.org/)

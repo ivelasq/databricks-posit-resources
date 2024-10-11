@@ -1,1 +1,1 @@
-# databricks-posit-resources
+# databricks-resources

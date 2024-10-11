@@ -1,0 +1,35 @@
+project:
+  type: website
+
+website:
+  title: "Databricks x Posit"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About the partnership
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "For developers"
+        contents: 
+          - section: "Connect to Databricks"
+            href: connect-to-db.qmd
+            contents:
+              - sparklyr.qmd
+              - odbc.qmd
+              - posit-workbench.qmd
+  page-footer:
+    center: 
+      - text: "Schedule a call with our team"
+        href: https://pos.it/databricks
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: true
+
+
+

@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "locale": "en_US",
+  "platform": "4.3.2",
+  "metadata": {
+    "appmode": "quarto-static",
+    "primary_rmd": "index.qmd",
+    "primary_html": null,
+    "content_category": null,
+    "has_parameters": false
+  },
+  "quarto": {
+    "version": "1.5.54",
+    "engines": ["markdown"]
+  },
+  "packages": null,
+  "files": {
+    "_quarto.yml": {
+      "checksum": "7ccc268cd2b6233f3bde997bbc7ae789"
+    },
+    "_site/about.html": {
+      "checksum": "3ba9f30c1c133ad53b344796ace7d693"
+    },
+    "_site/connect-to-db.html": {
+      "checksum": "e655ddf7bece107bb3098e879baf4966"
+    },
+    "_site/images/odbc-after.png": {
+      "checksum": "28635f2edbc7b01cb76022b90f5c2361"
+    },
+    "_site/images/odbc-before.png": {
+      "checksum": "a766cf562fe0a45c0f51e0636ceb7004"
+    },
+    "_site/images/quarto-report.png": {
+      "checksum": "b28b4a6e5d5ec2a61bd4bed4bd3137ab"
+    },
+    "_site/images/sparklyr-cheatsheet.png": {
+      "checksum": "e53ae58a2c14d07e4a46380446650ab1"
+    },
+    "_site/index.html": {
+      "checksum": "57de1e9c640501681ba29d98bbe99055"
+    },
+    "_site/odbc.html": {
+      "checksum": "88266c49ab4251ce7d3346b847884207"
+    },
+    "_site/posit-workbench.html": {
+      "checksum": "21c79104affc6674e20e1a2f1d73abfc"
+    },
+    "_site/search.json": {
+      "checksum": "9e13c61ab08b769d066f02e3127a4ed1"
+    },
+    "_site/site_libs/bootstrap/bootstrap-icons.css": {
+      "checksum": "2318f137d201fbf51601fa0faba6bef7"
+    },
+    "_site/site_libs/bootstrap/bootstrap-icons.woff": {
+      "checksum": "1a51dfbe5467607389d603c02a77cd10"
+    },
+    "_site/site_libs/bootstrap/bootstrap.min.css": {
+      "checksum": "4da1f6638a007ef178d4ffa97a047df9"
+    },
+    "_site/site_libs/bootstrap/bootstrap.min.js": {
+      "checksum": "e2b09c06f0e714b6144a6788a28e3950"
+    },
+    "_site/site_libs/clipboard/clipboard.min.js": {
+      "checksum": "15f52a1ee547f2bdd46e56747332ca2d"
+    },
+    "_site/site_libs/quarto-html/anchor.min.js": {
+      "checksum": "91bcf6cd1fd88fec3f109811e5fc3546"
+    },
+    "_site/site_libs/quarto-html/popper.min.js": {
+      "checksum": "3a4a291ccf3f1ea0f82b641542fd3827"
+    },
+    "_site/site_libs/quarto-html/quarto-syntax-highlighting.css": {
+      "checksum": "49bff82b9355f257417faaaa77dd1607"
+    },
+    "_site/site_libs/quarto-html/quarto.js": {
+      "checksum": "2ca82ae8ee1e5762d249c6b6c0802e30"
+    },
+    "_site/site_libs/quarto-html/tippy.css": {
+      "checksum": "ebd6f8ce46a677e1a4f5f8a8317109a9"
+    },
+    "_site/site_libs/quarto-html/tippy.umd.min.js": {
+      "checksum": "d828775275749701b48bd9d958814111"
+    },
+    "_site/site_libs/quarto-nav/headroom.min.js": {
+      "checksum": "ace0360e576db9b6e7df48ac68ddbbf4"
+    },
+    "_site/site_libs/quarto-nav/quarto-nav.js": {
+      "checksum": "724bf5148c96bf8aec0d1b259345bfa5"
+    },
+    "_site/site_libs/quarto-search/autocomplete.umd.js": {
+      "checksum": "c64544db941e048f2652217cb9a7f29c"
+    },
+    "_site/site_libs/quarto-search/fuse.min.js": {
+      "checksum": "de7d60e4a6881074275feca14b84a49d"
+    },
+    "_site/site_libs/quarto-search/quarto-search.js": {
+      "checksum": "95a859fa579bdb6eb81526a734238e6b"
+    },
+    "_site/sparklyr.html": {
+      "checksum": "f85f114bad9d64ef79531c03546c7659"
+    },
+    "about.qmd": {
+      "checksum": "2ab6d125ecc3f7e1b8e8a4de1cb0180b"
+    },
+    "connect-to-db.qmd": {
+      "checksum": "c3c510cb017319a9422ffa6fcddb0154"
+    },
+    "connect.R": {
+      "checksum": "537a0e85d31a77617e477f8e6d0b2f30"
+    },
+    "create-gif.R": {
+      "checksum": "ff2fa5c0e252df40746f6fe4ba002e15"
+    },
+    "images/cheatsheets.png": {
+      "checksum": "4fb7b9f88771020d3892de2da547fb5c"
+    },
+    "images/connections-pane.png": {
+      "checksum": "1ead698214c069158846ef5b7485e9f9"
+    },
+    "images/databricks-pane.png": {
+      "checksum": "dfc69ceeb537ce68ca92c7a73961fe00"
+    },
+    "images/databricks-pro-driver.png": {
+      "checksum": "45784551fd999d6d918b56ff2375c08e"
+    },
+    "images/deploy-databricks.gif": {
+      "checksum": "b8679d58d6ac979c877e0639b8ba458e"
+    },
+    "images/lakehouse-apps.png": {
+      "checksum": "8a5bb1f4c6a6a1f1d028c006936fd040"
+    },
+    "images/machine-learning.png": {
+      "checksum": "494500bdc7c6014fd9f8ce27119cf004"
+    },
+    "images/odbc_explain.drawio.png": {
+      "checksum": "e0b2bceb4013296ce8fa77f5ffdd978d"
+    },
+    "images/odbc-after.png": {
+      "checksum": "28635f2edbc7b01cb76022b90f5c2361"
+    },
+    "images/odbc-before.png": {
+      "checksum": "a766cf562fe0a45c0f51e0636ceb7004"
+    },
+    "images/quarto-report.png": {
+      "checksum": "b28b4a6e5d5ec2a61bd4bed4bd3137ab"
+    },
+    "images/sparklyr-cheatsheet.png": {
+      "checksum": "e53ae58a2c14d07e4a46380446650ab1"
+    },
+    "images/sparklyr-connection.gif": {
+      "checksum": "c159499882076421d598a314815d771c"
+    },
+    "images/sparklyr.png": {
+      "checksum": "446f55c16b680ef7ef205531358974b5"
+    },
+    "images/workbench-auth.png": {
+      "checksum": "9b3f6be86bd15663d1466dc1ba107ca6"
+    },
+    "index.qmd": {
+      "checksum": "9d924ad0c49d7afc19d863a23d823a50"
+    },
+    "odbc.qmd": {
+      "checksum": "b79d66231c73dc3eb3de884f8e2691f8"
+    },
+    "posit-workbench.qmd": {
+      "checksum": "35145331decebbef79e11aa65a4cee81"
+    },
+    "README.md": {
+      "checksum": "64bea9699269f722382a5c09ce19a970"
+    },
+    "sparklyr.qmd": {
+      "checksum": "a9b3154fdf8c69f2a72db50e0c17b8e9"
+    },
+    "styles.scss": {
+      "checksum": "d3aad1c71a71d95b0adaea4ad6b2953c"
+    }
+  },
+  "users": null
+}

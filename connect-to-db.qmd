@@ -1,0 +1,60 @@
+---
+title: "Connect to Databricks"
+---
+
+Choose your own adventure for connecting to Databricks:
+
+:::: {.columns}
+
+::: {.column width="48%"}
+
+::: {.feature}
+### sparklyr
+For handling large datasets that benefit from distributed computing and/or ML operations, we suggest sparklyr, which uses Apache Spark, designed for big data processing and extensive analytics tasks.
+
+::: {.learn-more}
+[See how to use sparklyr »](./sparklyr.qmd)
+:::
+:::
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+::: {.feature}
+### odbc
+For basic querying tasks without requiring Spark's advanced capabilities, ODBC offers a simpler and lighter option, especially if you don't have Unity Catalog. In such cases, we recommend using the ODBC drivers and the new `odbc::databricks()` function. Additionally, for interactive applications like Shiny, using ODBC streamlines connection requirements and dependencies.
+
+::: {.learn-more}
+[See how to use odbc »](./odbc.qmd)
+:::
+:::
+:::
+::::
+
+:::: {.columns}
+
+::: {.column width="48%"}
+
+::: {.feature}
+### Posit Workbench and RStudio Pro
+For customers with Posit Workbench and RStudio Pro, there are seamless options for connecting to Databricks.
+
+::: {.learn-more}
+[Learn more about our pro products »](./posit-workbench.qmd)
+:::
+:::
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="48%"}
+
+::: {.feature}
+
+:::
+:::
+::::

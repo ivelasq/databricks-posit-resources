@@ -1,0 +1,20 @@
+---
+title: "About the Partnership"
+---
+
+The Databrick Lakehouse Platform provides a comprehensive architecture that seamlessly integrates, stores, processes, and manages data at scale. Posit specializes in building user-friendly, code-first environments and tools for R and Python users, empowering them to write code, manage packages, and deploy data products with ease.  Users from both sides can already harness the benefits of existing integrations, combining the strengths of Databricks’ architecture with Posit’s robust tools.
+
+We’re strengthening our partnership to augment and improve our integrations, ensuring we deliver even better outcomes for our customers. We aim to deliver an exceptional development and publishing experience by combining popular tools for coding and deployment with robust scaling, distributed computing, and ML capabilities.
+
+## [Read the announcement »](https://posit.co/blog/databricks-and-posit-announce-new-integrations/)
+
+Shanku Niyogi and Eric Pité are pleased to inform you about the collaborative efforts and integrations between the teams at Databricks and Posit.
+
+## What's next
+
+* Support for Databricks authentication in [Posit Connect](https://posit.co/products/enterprise/connect/)
+* Continued improvements and expansion to existing [Posit Workbench](https://posit.co/products/enterprise/workbench/) capabilities with Databricks
+* Growing support for additional Spark functions and features in sparklyr
+* Eventual inclusion of Posit products in [Databricks Lakehouse Applications](https://www.databricks.com/blog/introducing-lakehouse-apps)
+
+

@@ -1,0 +1,54 @@
+---
+title: "Posit Workbench and RStudio Pro"
+---
+
+Posit Workbench is the place for teams to collaboratively build open source data science projects at scale. It supports both R and Python, giving data scientists access to all the development environments they love, including RStudio, Jupyter, and VS Code.
+
+If you are working on RStudio Pro in Posit Workbench, you have more seamless options for connecting to Databricks.
+
+## What's new?
+
+Watch James Blair’s posit::conf(2023) talk, Matching Tools to Titans: Tailoring Posit Workbench for Every Cloud, to learn what’s new with Posit Workbench and Databricks:
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/DzA2gRk4g2o?si=lRmrXgpWlLmj9QqI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+
+[See the resources on GitHub »](https://github.com/blairj09-talks/matching-tools-to-titans)
+
+### [Managed Databricks credentials »](https://docs.posit.co/ide/server-pro/user/posit-workbench/guide/databricks.html)
+
+The 2023.12.0 version of Posit Workbench offers managed Databricks credentials - no need to supply Personal Access Tokens (PATs).
+
+These Workbench-managed credentials eliminate the need for end users to manage complex authentication workflows or manual refresh when accessing specific Cloud services from within Workbench.
+
+<details><summary>See more benefits</summary>
+
+* Users arrive in a session to find that tools like the CLI and most official SDKs and drivers “magically” work without needing a separate step to set up credentials.
+* Administrators no longer need to accept blanket access to an overloaded instance profile (or an equivalent) by all Workbench users so that they can access Cloud-based resources.
+* Users do not need to manage sensitive, long-lived credentials/PATs themselves to have individually scoped permissions.
+* Administrators can grant or revoke granular access for individuals at the Identity Access or Single Sign-On provider level.
+
+</details>
+
+See how easy it is to authenticate your Databricks account in Posit Workbench:
+
+<center><script src="https://fast.wistia.com/embed/medias/frgy0jp8am.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_frgy0jp8am seo=true videoFoam=false" style="height:281px;position:relative;width:500px"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/frgy0jp8am/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></center>
+
+## [Databricks Pane »](https://docs.posit.co/ide/server-pro/user/rstudio-pro/guide/databricks.html)
+
+We have introduced a Databricks Pane in RStudio Pro, which allows for users to manage and connect to Databricks clusters directly from the IDE. This allows R users to stay in RStudio Pro without having to navigate back and forth to the Databricks web interface.
+
+Watch a demonstration of the Databricks Pane here:
+
+<center><script src="https://fast.wistia.com/embed/medias/41nu6pyods.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_41nu6pyods seo=true videoFoam=false" style="height:281px;position:relative;width:500px"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/41nu6pyods/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></center>
+
+## [Databricks Pro Driver »](https://docs.posit.co/pro-drivers/)
+
+Posit Workbench includes access to our Pro Drivers for the most popular databases. As of the 2023.12 release, we now also include a Databricks driver.
+
+See how to connect with the Databricks Pro Driver:
+
+<center><script src="https://fast.wistia.com/embed/medias/eopyf7taym.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_eopyf7taym seo=true videoFoam=false" style="height:281px;position:relative;width:500px"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/eopyf7taym/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></center>
+
+## References
+
+* [RStudio IDE and Posit Workbench 2023.12.0: What’s New](https://posit.co/blog/rstudio-2023-12-0-whats-new/)

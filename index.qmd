@@ -1,0 +1,9 @@
+---
+title: "Databricks x Posit"
+---
+
+Databricks and Posit are thrilled to announce a strategic partnership to provide R and Python developers with an unmatched experience when working with Databricks.
+
+See our latest webinar:
+<br><br>
+<center><iframe width="700" height="393" src="https://www.youtube.com/embed/iShpyDxzMeE?si=W6dzrj2zqpK3A39_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>

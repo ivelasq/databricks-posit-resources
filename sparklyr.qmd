@@ -1,0 +1,84 @@
+---
+title: "sparklyr"
+---
+
+[sparklyr](https://spark.rstudio.com/) serves as the R interface to Apache Spark, enabling seamless connections to Databricks through Databricks Connect.
+
+## What's new?
+
+Watch Edgar Ruiz's posit::conf(2023) talk, Using R with Databricks Connect, to learn what's new with sparklyr and Databricks:
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/n3Wf59MI1LI?si=UugPty8E6XvAlT6C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+
+[See the slides on Posit Connect »](https://colorado.posit.co/rsc/edgar/positconf2023/posit-conf-databricks.html#/databricks-with-r)
+
+## How-to
+
+::: {.callout-note}
+The [Databricks Connect v2 page](https://spark.rstudio.com/deployment/databricks-connect.html) in the sparklyr documentation has updated, thorough steps on using sparklyr for Databricks. This page links to the relevant sections. 
+:::
+
+Watch a walkthrough of the steps here:
+
+<center><script src="https://fast.wistia.com/embed/medias/ppcmn60r08.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_ppcmn60r08 seo=true videoFoam=false" style="height:281px;position:relative;width:500px"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/ppcmn60r08/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></center>
+
+<br>
+
+### [Install the required packages »](https://spark.rstudio.com/deployment/databricks-connect.html#getting-started)
+
+Install the required packages to get started.
+
+```r
+install.packages("sparklyr")
+install.packages("pysparklyr")
+```
+
+### [Get started »](https://spark.rstudio.com/deployment/databricks-connect.html#getting-started)
+
+Configure your workspace to use Databricks Connect and access Unity Catalog data via the RStudio Connections Pane.
+
+::: {.callout-note}
+If you’re using RStudio on Posit Workbench, there’s a new Databricks pane that helps you manage your Databricks Spark clusters, as well as connections to clusters via Sparklyr. Click on the Databricks pane, and you’ll see a list of your compute clusters, their status, and more details. [Learn more](https://posit.co/blog/pysparklyr-for-interacting-with-spark-databricks-connect/).
+:::
+
+### [Interact with the cluster »](https://spark.rstudio.com/deployment/databricks-connect.html#interacting-with-the-cluster)
+
+The new integration with sparklyr allows you to explore and access data from your Databricks cluster directly in RStudio through the [Connections Pane](https://solutions.posit.co/connections/db/tooling/connections/).
+
+### Analyzing your data
+
+#### [Prepare data »](https://spark.rstudio.com/get-started/prepare-data.html)
+
+You can use your familiar dplyr commands to prepare your data. The [sparklyr cheat sheet](https://spark.rstudio.com/images/homepage/sparklyr.pdf) provides easy reference to the functions available with sparklyr.
+
+![](images/sparklyr-cheatsheet.png){fig-align="center" width=600px}
+
+[See the cheatsheet »](https://spark.rstudio.com/images/homepage/sparklyr.pdf)
+
+#### [Machine learning  »](https://spark.rstudio.com/deployment/databricks-connect.html#machine-learning)
+
+Sparklyr supports Logistic Regression and two scaler transformers, Standard Scaler and Max Abs Scaler.
+
+### [Deploying Databricks-backed content to Posit Connect »](https://spark.rstudio.com/deployment/databricks-connect.html#deploying-to-posit-connect)
+
+Once you have created your content, deploy it to [Posit Connect](https://posit.co/products/enterprise/connect/) using `pysparklyr::deploy_databricks()`. Posit Connect allows you to edit sharing permissions, edit vanity URLs, and more.
+
+<center><script src="https://fast.wistia.com/embed/medias/c0vqaki8zw.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_c0vqaki8zw seo=true videoFoam=false" style="height:281px;position:relative;width:500px"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/c0vqaki8zw/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></center>
+
+## Tutorial
+
+In our blog post, [Crossing Bridges: Reporting on NYC taxi data with RStudio and Databricks](https://posit.co/blog/reporting-on-nyc-taxi-data-with-rstudio-and-databricks/), we walk through connecting to Databricks in RStudio, accessing cluster data, and creating a Quarto report using the data that is deployed to Posit Connect.
+
+![](images/quarto-report.png){fig-align="center" width=400px}
+
+[Read the tutorial »](https://posit.co/blog/reporting-on-nyc-taxi-data-with-rstudio-and-databricks/)
+
+[Watch a 1-minute walk through »](https://www.instagram.com/p/C3lDwgPA5QO/)
+
+## References
+
+* [sparklyr site](https://spark.rstudio.com/)
+  * [sparklyr GitHub repo](https://github.com/sparklyr/sparklyr#connecting-through-databricks-connect)
+  * [sparklyr update blog post](https://posit.co/blog/databricks-clusters-in-rstudio-with-sparklyr/)
+* [pysparklyr GitHub repo](https://github.com/mlverse/pysparklyr)
+  * [pysparklyr update blog post](https://posit.co/blog/pysparklyr-for-interacting-with-spark-databricks-connect/)
